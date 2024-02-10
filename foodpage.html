@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Room</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div class="container">
+<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+	<center>
+		<h1 class="header">	
+			Potato
+			<sup>
+				<img src="potatoig.png" class="logo">
+			</sup>
+		</h1>
+        <div id="pizza" class="col-lg-4 col-md-6 col-sm-6 col-xs-11 pizza_div">
+            <h2 id="sui">Pizza</h2>
+            <img src="pizza.jpg" id="pj" class="logo">
+			<br>
+			<h2>₹399</h2>
+			<button id="procced" class="btn btn-primary" onclick="procced()">Procced</button>
+			<br>
+			<br>
+			<br>
+        </div>
+		<div id="pizza" class="col-lg-4 col-md-6 col-sm-6 col-xs-11 burger_div">
+            <h2 id="sui">Burger</h2>
+            <img src="burger.jpg" class="logo">
+			<h2>₹399</h2>
+			<button id="procced" class="btn btn-primary" onclick="procced()">Procced</button>
+			<br>
+			<br>
+        </div>
+		<div id="pizza" class="col-lg-4 col-md-6 col-sm-6 col-xs-11 pizza_div">
+            <h2 id="sui">Ice Cream</h2>
+            <img src="icescearm.jpg" id="pj" class="logo">
+			<h2>₹399</h2>
+			<button id="procced" class="btn btn-primary" onclick="procced()">Procced</button>
+		<br>
+		<br>
+	</center>
+</div>
+
+
+    
+
+<script src="food.js"></script>
+</body>
+</html>
